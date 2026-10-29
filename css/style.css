@@ -93,6 +93,7 @@ body.en-only .sel-chip .cn-part{display:none}
 
 /* modal */
 .modal{position:fixed;inset:0;background:rgba(20,26,36,.45);display:flex;align-items:center;justify-content:center;z-index:40;padding:16px}
+.modal[hidden],.popover[hidden],.toast[hidden]{display:none!important}
 .modal-card{width:min(560px,100%);max-height:80vh;overflow:auto}
 .hint-line{font-size:12px;margin:2px 0 10px}
 .rand-cats{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px;margin-bottom:12px}
