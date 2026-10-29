@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tag 选择器 · NovelAI 提示词工具箱</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">✦ Tag 选择器</div>
+  <div class="topbar-actions">
+    <button id="btn-lang" class="ghost" title="切换中/英显示">中 / EN</button>
+    <button id="btn-random" class="primary" title="随机抽取一组搭配合理的 tag">🎲 随机</button>
+    <label class="switch" title="显示 NSFW 分类"><input type="checkbox" id="chk-nsfw"><span class="slider"></span><i>R18</i></label>
+  </div>
+</header>
+
+<main class="layout">
+  <section class="output-panel card">
+    <div class="section-label">已选 · 正向提示词 <span class="muted">（拖拽排序 · 每段 ± 加权）</span></div>
+    <div id="selected-list" class="selected-list" aria-live="polite"></div>
+    <textarea id="out-positive" class="output-box" rows="3" readonly placeholder="点击上方词库中的 tag，组合显示在这里"></textarea>
+    <div class="btn-row">
+      <button id="btn-copy-pos" class="primary">复制</button>
+      <button id="btn-clear-pos" class="danger ghost">清空</button>
+      <button id="btn-syntax" class="ghost" title="在 {..} 与 (..) 加权语法间切换">加权 { }</button>
+    </div>
+  </section>
+
+  <section class="neg-panel card">
+    <div class="section-label">反向提示词</div>
+    <textarea id="out-negative" class="output-box small-box" rows="2" spellcheck="false"></textarea>
+    <div class="btn-row">
+      <button id="btn-copy-neg" class="ghost">复制</button>
+      <button id="btn-clear-neg" class="ghost danger">清空</button>
+      <button id="btn-default-neg" class="ghost">恢复默认</button>
+    </div>
+  </section>
+
+  <nav class="tabs" id="tabs"></nav>
+
+  <section class="browse">
+    <div class="search-row">
+      <input type="search" id="search" placeholder="搜索 tag（中文 / 英文）" autocomplete="off">
+      <span id="search-count" class="muted"></span>
+    </div>
+    <div class="custom-import">
+      <input type="text" id="custom-input" placeholder="自定义导入：逗号分隔，如 1girl, blue hair, smile" autocomplete="off">
+      <button id="btn-custom-add" class="ghost">导入</button>
+    </div>
+    <div id="dictionary" class="dictionary"></div>
+  </section>
+</main>
+
+<div id="rand-modal" class="modal" hidden>
+  <div class="modal-card card">
+    <div class="section-label">随机抽取 · 分类开关</div>
+    <p class="muted hint-line">固定包含 1girl；自动避开冲突（性别 / 物种 / 视角 / 裁切 / 发色 / 瞳色 / 单双人 / 服装主体互斥）。</p>
+    <div id="rand-cats" class="rand-cats"></div>
+    <div class="rand-actions">
+      <label class="switch compact"><input type="checkbox" id="chk-rand-nsfw"><span class="slider"></span><i>抽NSFW</i></label>
+      <button id="btn-rand-do" class="primary">抽取</button>
+      <button id="btn-rand-close" class="ghost">关闭</button>
+    </div>
+  </div>
+</div>
+
+<div id="rand-config-pop" class="popover" hidden></div>
+<div id="toast" class="toast" hidden></div>
+
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,252 @@
+{
+ "画面增强": {
+  "amazing": "令人惊叹的",
+  "high detail": "更多细节",
+  "ultra-detailed": "超详细",
+  "extremely detailed 8k wallpaper": "非常详细的8k壁纸"
+ },
+ "光": {
+  "light": "光",
+  "frontlight": "正面光",
+  "sidelight": "侧面光",
+  "backlight": "背光",
+  "backlighting": "逆光",
+  "golden hour lighting": "黄金时段照明",
+  "best illumination": "最佳照明",
+  "glint": "闪光",
+  "lens flare": "镜头光晕",
+  "overexposure": "过曝光",
+  "cinematic lighting": "电影光照",
+  "dramatic lighting": "戏剧光",
+  "ray tracing": "光线追踪",
+  "detailed lighting": "精细光照",
+  "light leaks": "漏光",
+  "light rays": "射线光束",
+  "floating light spot": "浮动光斑",
+  "sunlight": "阳光",
+  "sunbeam": "太阳光束",
+  "dappled sunlight": "斑驳的阳光",
+  "sunlight filtering through trees": "阳光透过树木",
+  "moonlight": "月光",
+  "holy light": "圣光",
+  "god light": "从上而下的光线",
+  "glowing": "发光",
+  "glowing light": "荧光",
+  "beautiful detailed glow": "漂亮精细的发光",
+  "reflection": "反射",
+  "ripples": "涟漪",
+  "crepuscular rays": "云隙光",
+  "morning glory": "晨光",
+  "neon": "霓虹灯",
+  "against backlight at dusk": "傍晚背对阳光",
+  "chiaroscuro": "明暗对比"
+ },
+ "影": {
+  "shadow": "影",
+  "shade": "阴影",
+  "shady": "有影的",
+  "best shadow": "最佳阴影",
+  "intense shadows": "强烈阴影",
+  "dramatic shadow": "戏剧阴影",
+  "tree shade": "树影",
+  "drop shadow": "投下阴影",
+  "shading eyes": "眼部阴影"
+ },
+ "插画和CG": {
+  "illustration": "插画",
+  "game cg": "游戏CG",
+  "portrait": "人像",
+  "official art": "官方图"
+ },
+ "封面和书本": {
+  "cover page": "封面",
+  "book cover": "书本封面",
+  "magazine scan": "杂志扫图",
+  "magazine cover": "杂志封面",
+  "doujinshi doujin cover": "同人志封面",
+  "megami magazine": "动漫杂志",
+  "comic book": "漫画书"
+ },
+ "漫画": {
+  "comic": "漫画",
+  "silent comic": "无声漫画",
+  "4koma": "四格漫画"
+ },
+ "动画": {
+  "fake screeshot": "伪截图",
+  "anime screecap": "动画截图",
+  "color trace": "原画"
+ },
+ "设定": {
+  "character design": "角色设定",
+  "artbook": "设定集",
+  "three views": "三视图",
+  "multiple views": "多视角",
+  "chibi": "Q版"
+ },
+ "功能": {
+  "dakimakura": "抱枕",
+  "poster": "海报",
+  "soviet poster": "苏维埃海报",
+  "card": "卡牌",
+  "tarot": "塔罗牌"
+ },
+ "其他画面": {
+  "photo": "照片",
+  "papercraft": "纸模",
+  "figure": "手办",
+  "expression chart": "表情展示",
+  "expressions": "表情差分",
+  "collage": "拼贴画",
+  "mugshot": "罪犯照片"
+ },
+ "颜色风格": {
+  "color:theme": "主题色",
+  "colorful": "色彩丰富",
+  "multicolored": "多种颜色",
+  "monochrome": "单色调",
+  "halftone": "半色调",
+  "greyscale": "灰阶",
+  "spot color": "专色",
+  "limited palette": "有限的调色板",
+  "partly colored": "部分上色",
+  "high contrast": "高对比",
+  "muted color": "哑光",
+  "pale color": "苍白颜色",
+  "neon palette": "霓虹色彩"
+ },
+ "画面元素": {
+  "no humans": "无人",
+  "outline": "描边",
+  "border": "边缘",
+  "letterboxed": "上下黑边",
+  "convenient censoring": "圣光(或烟雾和其他物体)打码"
+ },
+ "滤镜": {
+  "chromatic aberration": "色像差",
+  "caustic": "焦散",
+  "sharp focus": "锐聚焦",
+  "depth of field": "景深",
+  "hdr": "hdr",
+  "blurred picture": "模糊",
+  "blurry background": "模糊背景",
+  "blurry foreground": "模糊前景",
+  "gaussian blur": "高斯模糊",
+  "silhouette": "剪影",
+  "motion blur": "运动模糊"
+ },
+ "气泡": {
+  "speech bubble": "对话气泡",
+  "thought bubble": "想法气泡",
+  "spoken exclamation mark note": "气泡！",
+  "spoken question mark note": "气泡？",
+  "spoken blush": "气泡害羞",
+  "spoken heart": "气泡心",
+  "spoken musical note": "气泡音符"
+ },
+ "音符": {
+  "music": "音乐",
+  "musical note": "音符",
+  "quarter note": "四分音符",
+  "eighth note": "八分音符"
+ },
+ "线条": {
+  "motion lines": "运动线",
+  "speed lines": "速度线"
+ },
+ "其他符号": {
+  "heartbeat": "心跳"
+ },
+ "一天": {
+  "sunrise": "日出",
+  "day": "白天",
+  "golden hour": "黄金时段",
+  "dusk": "黄昏",
+  "sunset": "落日",
+  "night": "夜间",
+  "evening": "晚上",
+  "late at night": "深夜"
+ },
+ "四季": {
+  "spring season": "春季",
+  "spring": "春",
+  "summer": "夏",
+  "autumn": "秋",
+  "winter": "冬"
+ },
+ "节日": {
+  "valentine": "情人节",
+  "tanabata": "七夕节(日本)",
+  "halloween": "万圣节",
+  "christmas": "圣诞节",
+  "thanksgiving": "感恩节"
+ },
+ "打光技法": {
+  "rim_lighting": "轮廓光",
+  "backlighting": "背光",
+  "side_lighting": "侧光",
+  "front_lighting": "正面光",
+  "top_lighting": "顶光",
+  "under lighting": "底光",
+  "volumetric_lighting": "体积光",
+  "cinematic_lighting": "电影打光",
+  "dramatic_lighting": "戏剧光",
+  "soft_lighting": "柔光",
+  "hard_lighting": "硬光",
+  "natural_lighting": "自然光",
+  "artificial_lighting": "人造光",
+  "ambient light": "环境光",
+  "spotlight": "聚光灯",
+  "sunbeam": "阳光束",
+  "tyndall effect": "丁达尔光",
+  "lens_flare": "镜头耀斑",
+  "god_rays": "天光",
+  "chiaroscuro": "明暗对比法",
+  "silhouette": "剪影光",
+  "glowing": "自体发光",
+  "neon lighting": "霓虹灯",
+  "candlelight": "烛光",
+  "moonlight": "月光",
+  "sunlight": "日光",
+  "fluorescent": "荧光灯",
+  "flash_photography": "闪光灯直打",
+  "caustics": "水波焦散",
+  "subsurface_scattering": "透光质感"
+ },
+ "影调": {
+  "shadow": "阴影",
+  "harsh_shadow": "硬阴影",
+  "soft_shadow": "柔和阴影",
+  "long_shadow": "长投影",
+  "no_shadow": "无影",
+  "backlit": "逆光剪味",
+  "dark": "暗调",
+  "bright": "亮调",
+  "high_key_lighting": "高调打光",
+  "low_key_lighting": "低调打光",
+  "golden_hour": "黄金时刻",
+  "blue hour": "蓝调时刻",
+  "dusk": "薄暮",
+  "dawn": "破晓",
+  "midday": "正午",
+  "night": "夜晚",
+  "twilight": "暮光"
+ },
+ "打光短语": {
+  "rim_lighting, backlight, glowing hair edges, dark_background": "逆光勾边+发丝泛光+暗背景",
+  "soft_lighting, window_light, pastel tones, morning": "窗边柔光+粉嫩色+清晨",
+  "sunset, golden_hour, warm light, long shadows, backlit": "黄金时刻+暖阳+长影+逆光",
+  "moonlight, cool tones, night, soft glow, silhouette": "月光冷调+柔光晕+剪影",
+  "candlelight, warm flicker, dim room, intimate": "烛光摇曳+暗室暖光",
+  "neon_lights, night city, colored reflections, cyberpunk": "霓虹夜色+彩色反光",
+  "tyndall effect, forest, sunbeam, dust motes": "森林丁达尔+光束浮尘",
+  "underwater light, caustics, rippling glow": "水下光+焦散波纹辉光",
+  "spotlight, stage, dark surroundings, dramatic": "舞台聚光+四周黑暗+戏剧感",
+  "lens_flare, sun high, bright sky, squinting": "正午阳光耀斑+眯眼",
+  "fire glow, campfire, night, warm face light": "篝火映脸+夜色暖光",
+  "screen glow, dark_room, blue_light, face": "屏幕蓝光+暗室映脸",
+  "rainy neon, wet street reflections, night, moody": "雨后霓虹+街面反光+阴郁",
+  "backlit lace, translucent fabric, sun through window": "窗光透纱+逆光半透",
+  "glowing_eyes, darkness, rim light, ominous": "暗中发光双眼+轮廓光"
+ }
+}
