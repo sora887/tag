@@ -118,3 +118,9 @@ body.en-only .sel-chip .cn-part{display:none}
   .acc-body{grid-template-columns:repeat(auto-fill,minmax(140px,1fr))}
   .layout{padding:10px 10px 80px}
 }
+
+/* tab 条目数徽标 */
+.tab .tab-n{font-size:10.5px;opacity:.62;margin-left:3px;font-weight:400}
+/* 冲突高亮 */
+.sel-chip.conflict{border-color:var(--danger);background:#fdecec}
+.sel-chip.conflict .lvl{color:var(--danger)}

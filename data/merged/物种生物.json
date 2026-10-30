@@ -52,7 +52,11 @@
   "gorilla": "大猩猩",
   "oranguta": "红毛猩猩",
   "baboon": "狒狒",
-  "kangaroo": "袋鼠"
+  "kangaroo": "袋鼠",
+  "deer": "鹿",
+  "sheep": "绵羊",
+  "goat": "山羊",
+  "red fox, snow, ears_up": "红狐+雪+竖耳"
  },
  "小型陆地哺乳": {
   "mouse": "老鼠",
@@ -64,7 +68,13 @@
   "bats": "蝙蝠(复)",
   "hedgehog": "刺猬",
   "bunny": "兔子",
-  "snow bunny": "雪兔"
+  "snow bunny": "雪兔",
+  "rabbit": "兔子",
+  "cat": "猫",
+  "dog": "狗",
+  "shiba_inu": "柴犬",
+  "white_cat, sitting, soft light": "白猫+端坐+柔光",
+  "shiba_inu, tongue_out, happy": "柴犬+吐舌+开心"
  },
  "海洋哺乳": {
   "dolphin": "海豚",
@@ -105,7 +115,13 @@
   "housefly": "苍蝇",
   "spider": "蜘蛛",
   "spider web": "蛛网",
-  "tarantula": "狼蛛"
+  "tarantula": "狼蛛",
+  "butterfly": "蝴蝶",
+  "dragonfly": "蜻蜓",
+  "firefly": "萤火虫",
+  "ladybug": "瓢虫",
+  "bee": "蜜蜂",
+  "firefly, summer night, riverbank, glow": "萤火虫+夏夜+河畔+微光"
  },
  "鸟类": {
   "bird": "鸟",
@@ -132,7 +148,9 @@
   "duck": "鸭子",
   "chicken": "鸡",
   "chick": "小鸡",
-  "hornbill": "犀鸟"
+  "hornbill": "犀鸟",
+  "crane": "仙鹤",
+  "parrot, colorful feathers, branch": "鹦鹉+彩羽+枝头"
  },
  "水产": {
   "fish": "鱼",
@@ -149,7 +167,10 @@
   "hermit crab": "寄居蟹",
   "shrimp": "虾",
   "lobster": "龙虾",
-  "sea turtle": "海龟"
+  "sea turtle": "海龟",
+  "goldfish": "金鱼",
+  "koi": "锦鲤",
+  "goldfish, bowl, water, light": "金鱼+鱼缸+水+光"
  },
  "幻兽种": {
   "phoenix": "凤凰",
@@ -170,7 +191,8 @@
   "moss": "青苔",
   "barley": "大麦",
   "cactus": "仙人掌",
-  "spathiphyllum": "白鹤芋"
+  "spathiphyllum": "白鹤芋",
+  "dandelion": "蒲公英"
  },
  "花": {
   "color?:blossoms": "花",
@@ -302,11 +324,21 @@
   "peony": "芍药",
   "mimosa": "含羞草",
   "periwinkle": "蔓长春花",
-  "forsythia": "连翘"
+  "forsythia": "连翘",
+  "cherry_blossoms": "樱花",
+  "sunflower": "向日葵",
+  "rose": "玫瑰",
+  "lotus": "莲花",
+  "sunflower_field, summer, blue_sky": "向日葵田+夏日+蓝天",
+  "cherry_blossoms, petals falling, spring": "樱花+落瓣+春",
+  "hydrangea, rain, blue and purple": "绣球+雨+蓝紫"
  },
  "藤类": {
   "vines": "藤类",
-  "ivy": "长春藤"
+  "ivy": "长春藤",
+  "wisteria": "紫藤",
+  "ivy, ruined wall, stone": "常春藤+断墙+石",
+  "wisteria, hanging, purple, trellis": "紫藤+垂挂+紫+棚架"
  },
  "灌木": {
   "bush": "灌木",
@@ -329,7 +361,13 @@
   "elm": "榆树",
   "redwood": "红杉",
   "maple": "枫树",
-  "ginkgo": "银杏"
+  "ginkgo": "银杏",
+  "ginkgo_tree": "银杏",
+  "maple_tree": "枫树",
+  "bamboo": "竹子",
+  "willow": "柳树",
+  "ginkgo_tree, golden leaves, autumn": "银杏+金黄叶+秋",
+  "bamboo_forest, filtered light, green": "竹林+滤光+翠绿"
  },
  "果实": {
   "pumpkin": "南瓜"

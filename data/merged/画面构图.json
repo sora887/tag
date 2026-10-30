@@ -329,7 +329,7 @@
   "face": "面部",
   "solo": "单人",
   "solo_focus": "单人特写",
-  "extreme_close-up": "极特写",
+  "extreme close-up": "极特写",
   "half body": "半身",
   "chibi": "Q版整身",
   "depth_of_field": "景深",
@@ -404,7 +404,7 @@
   "foreshortening": "透视缩短"
  },
  "构图短语": {
-  "upper_body, looking_at_viewer, smile, soft_lighting": "上半身构图+看镜头+微笑+柔光",
+  "upper_body, looking_at_viewer, smile, soft lighting": "上半身构图+看镜头+微笑+柔光",
   "full_body, standing, outdoors, sunset, wide_shot": "全身站姿+户外+夕阳+广角",
   "close-up, face, side profile, rim light, dark_background": "脸部侧面特写+轮廓光+暗背景",
   "cowboy_shot, relaxed pose, looking away, depth_of_field": "七分身+放松姿态+移视+景深",
@@ -421,7 +421,7 @@
   "wide_shot, cityscape, neon, night, reflections": "广角夜景+城市+霓虹倒影",
   "cowboy_shot, walking, hair swaying, shallow depth of field": "行走+发丝摆动+浅景深",
   "from_behind, looking_back, over_shoulder, soft glow": "回眸+越过肩膀+柔光",
-  "extreme_close-up, lips, blush, warm light": "唇部极特写+脸红+暖光",
+  "extreme close-up, lips, blush, warm light": "唇部极特写+脸红+暖光",
   "three_quarter_view, on_chair, crossed_legs, cafe": "四分之三视角+椅子上翘腿+咖啡厅",
   "aerial, beach, waves, small figure, vast sea": "鸟瞰海滩+浪花+小人物+辽阔海面",
   "silhouette, sunset, couple, holding_hands, long_shadow": "夕阳剪影+牵手+长影",

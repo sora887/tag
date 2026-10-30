@@ -1,0 +1,72 @@
+{
+    "校园": {
+        "classroom": "教室",
+        "school hallway": "学校走廊",
+        "school rooftop": "学校天台",
+        "gymnasium": "体育馆",
+        "school library": "学校图书馆",
+        "club room": "社团教室",
+        "sports field": "操场",
+        "school gate": "校门",
+        "classroom, sunset, empty desks, light through windows": "夕阳教室+空课桌+窗光",
+        "school rooftop, fence, sky, wind": "天台+铁丝网+天空+风",
+        "school hallway, lockers, morning light": "走廊+储物柜+晨光"
+    },
+    "餐饮": {
+        "cafe": "咖啡馆",
+        "bar": "酒吧",
+        "bakery": "面包店",
+        "tea house": "茶屋",
+        "food stall": "小摊",
+        "cafe, window seat, coffee cup, warm light": "咖啡馆临窗+咖啡杯+暖光",
+        "bakery, bread display, morning, apron": "面包店+面包陈列+清晨+围裙"
+    },
+    "自然环境": {
+        "forest": "森林",
+        "beach": "海滩",
+        "cliff": "悬崖",
+        "grassland": "草原",
+        "snowfield": "雪原",
+        "desert": "沙漠",
+        "waterfall": "瀑布",
+        "lake": "湖泊",
+        "river bank": "河岸",
+        "cave": "洞窟",
+        "beach, waves, sunset, footprints, breeze": "海滩+浪花+夕阳+脚印+微风",
+        "forest, sunlight through leaves, path, quiet": "森林+林间阳光+小径",
+        "snowfield, footprints, breath vapor, silence": "雪原+脚印+白气+寂静"
+    },
+    "室内其他": {
+        "bedroom": "卧室",
+        "living_room": "客厅",
+        "kitchen": "厨房",
+        "bathroom": "浴室",
+        "attic": "阁楼",
+        "basement": "地下室",
+        "balcony": "阳台",
+        "hallway": "走廊",
+        "bedroom, bed, window, morning light, curtains": "卧室+床+窗+晨光+窗帘"
+    },
+    "娱乐旅宿": {
+        "aquarium": "水族馆",
+        "planetarium": "天文馆",
+        "cinema": "电影院",
+        "theater": "剧场",
+        "onsen": "温泉",
+        "ryokan": "日式旅馆",
+        "aquarium, blue_light, fish, glass tank": "水族馆+蓝光+鱼+玻璃缸"
+    },
+    "建筑": {
+        "castle": "城堡",
+        "palace": "宫殿",
+        "cathedral": "大教堂",
+        "shrine": "神社",
+        "temple": "寺庙",
+        "ruins": "废墟",
+        "laboratory": "实验室",
+        "spaceship": "宇宙船",
+        "space_station": "空间站",
+        "shrine, stone steps, torii, autumn_leaves": "神社+石阶+鸟居+红叶",
+        "castle, towers, banners, mountains": "城堡+塔楼+旗帜+群山"
+    }
+}

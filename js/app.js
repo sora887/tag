@@ -1,4 +1,4 @@
-﻿/* Tag 选择器 · 前端主逻辑
+/* Tag 选择器 · 前端主逻辑
  * 功能：分类词库点选 / 拖拽排序 / ±加权 / { } ⇄ ( ) 切换 / 正反输出 + 复制清空默认
  *       localStorage 持久化 / 中英显示切换 / R18 开关 / 搜索 / 自定义导入 / 右键 Danbooru / 随机抽取
  */
@@ -70,12 +70,13 @@ function renderOutput() {
 }
 function renderSelected() {
   const box = $('#selected-list'); box.innerHTML = '';
+  $('#sel-count').textContent = state.selected.length + ' 条';
   if (!state.selected.length) {
     box.appendChild(el('div', 'empty', '还没有选中的 tag'));
   } else {
     state.selected.forEach((item, i) => {
       const chip = el('span', 'sel-chip');
-      chip.draggable = true; chip.dataset.i = i;
+      chip.draggable = true; chip.dataset.i = i; chip.dataset.en = item.en;
       const label = el('span', 'chip-label');
       label.innerHTML = (state.langEn ? esc(item.en) : esc(item.cn || item.en)
         + ' <span class="cn-part muted">' + esc(item.en) + '</span>');
@@ -105,8 +106,41 @@ function renderSelected() {
       });
       box.appendChild(chip);
     });
+    markConflicts();
   }
   document.body.classList.toggle('en-only', state.langEn);
+}
+
+/* 已选区冲突检测：同组（裁切/时间/天气/姿态/发色/瞳色/视角对）或禁用词高亮 */
+function markConflicts() {
+  const chips = $$('#selected-list .sel-chip');
+  const info = chips.map(c => ({ chip: c, toks: new Set(tokenize(c.dataset.en || '')) }));
+  const reasons = new Map();
+  const add = (i, r) => { if (!reasons.has(i)) reasons.set(i, new Set()); reasons.get(i).add(r); };
+  const groups = [['取景', GROUP_MAX1.crop], ['时间', GROUP_MAX1.time], ['天气', GROUP_MAX1.weather], ['姿态', GROUP_MAX1.pose]];
+  for (const [label, set] of groups) {
+    const hit = [];
+    info.forEach((x, i) => { if ([...x.toks].some(t => set.has(t))) hit.push(i); });
+    if (hit.length > 1) hit.forEach(i => add(i, label + '重复'));
+  }
+  const hair = info.map((x, i) => ({ i, c: [...x.toks].filter(t => COLOR_HAIR.test(t)) })).filter(o => o.c.length);
+  if (hair.length > 1) hair.forEach(o => add(o.i, '发色重复'));
+  const eyes = info.map((x, i) => ({ i, c: [...x.toks].filter(t => COLOR_EYES.test(t)) })).filter(o => o.c.length);
+  if (eyes.length > 1) eyes.forEach(o => add(o.i, '瞳色重复'));
+  for (let a = 0; a < info.length; a++) {
+    for (let b = a + 1; b < info.length; b++) {
+      for (const [x, y] of PAIR_CONFLICT) {
+        if ((info[a].toks.has(x) && info[b].toks.has(y)) || (info[a].toks.has(y) && info[b].toks.has(x))) {
+          add(a, '视角冲突'); add(b, '视角冲突');
+        }
+      }
+    }
+  }
+  info.forEach((o, i) => {
+    const bad = reasons.get(i);
+    o.chip.classList.toggle('conflict', !!bad);
+    if (bad) o.chip.title = '冲突：' + [...bad].join('、');
+  });
 }
 
 /* ---------- 选中动作 ---------- */
@@ -145,6 +179,7 @@ function renderTabs() {
   const nav = $('#tabs'); nav.innerHTML = '';
   state.index.filter(c => state.nsfw || !c.nsfw).forEach(c => {
     const b = el('button', 'tab' + (state.current === c.name ? ' active' : ''), c.name);
+    b.appendChild(el('span', 'tab-n', String(c.entries)));
     b.title = c.subs + ' 个小分类 · ' + c.entries + ' 条';
     b.onclick = () => { state.current = c.name; state.query = ''; $('#search').value = ''; renderTabs(); renderDictionary(); save(); };
     nav.appendChild(b);

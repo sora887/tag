@@ -57,7 +57,16 @@
   "mother and daughter": "母女",
   "mother and son": "母子",
   "husband and wife": "夫妻",
-  "harem": "后宫"
+  "harem": "后宫",
+  "sisters": "姐妹",
+  "mother_and_daughter": "母女",
+  "couple": "情侣",
+  "friends": "朋友",
+  "classmates": "同学",
+  "childhood friend": "青梅竹马",
+  "rivals": "对手",
+  "master and servant": "主仆",
+  "twins, side-by-side, smile, matching_outfits": "双胞胎+并肩+微笑+同款"
  },
  "其他": {
   "crossdressing": "伪娘"
@@ -69,7 +78,22 @@
   "innocent": "清纯",
   "female pervert": "痴女",
   "gyaru": "辣妹",
-  "kogal": "小辣妹"
+  "kogal": "小辣妹",
+  "tsundere": "傲娇",
+  "kuudere": "三无",
+  "dandere": "内向害羞",
+  "yandere": "病娇",
+  "genki": "元气",
+  "airhead": "天然呆",
+  "tomboy": "假小子",
+  "elegant": "优雅",
+  "cheeky": "调皮",
+  "calm": "冷静",
+  "mysterious": "神秘",
+  "confident": "自信",
+  "tsundere, blush, looking away, crossed_arms": "傲娇+脸红+别过脸+抱臂",
+  "genki, jumping, big smile, twintails": "元气+跳跃+大笑+双马尾",
+  "kuudere, blank_stare, no expression": "三无+冷漠脸"
  },
  "非人": {
   "fairy": "小精灵",
@@ -94,7 +118,16 @@
   "minigirl": "迷你女孩",
   "orc": "兽人",
   "lalafell": "拉拉肥",
-  "goblin": "哥布林"
+  "goblin": "哥布林",
+  "cat_girl": "猫娘",
+  "kitsune": "狐娘",
+  "half-elf": "半精灵",
+  "demon": "恶魔",
+  "mermaid": "人鱼",
+  "dragon_girl": "龙娘",
+  "slime_girl": "史莱姆娘",
+  "cat_girl, cat_ears, tail, neck_bell": "猫娘+猫耳+尾巴+铃铛项圈",
+  "elf, pointy_ears, long_hair, forest": "精灵+尖耳+长发+森林"
  },
  "人外": {
   "monster girl": "人外娘",
@@ -146,7 +179,17 @@
   "valkyrie": "女武神",
   "priest": "牧师",
   "cleric": "神职人员",
-  "sailor senshi": "美少女战士"
+  "sailor senshi": "美少女战士",
+  "alchemist": "炼金术士",
+  "summoner": "召唤师",
+  "bard": "吟游诗人",
+  "shaman": "萨满",
+  "dark_knight": "暗黑骑士",
+  "paladin": "圣骑士",
+  "ranger": "游侠",
+  "priestess": "巫女（圣女）",
+  "alchemist, potion, goggles, laboratory": "炼金术士+药瓶+护目镜+实验室",
+  "bard, lute, cape, forest": "吟游诗人+诗琴+斗篷+森林"
  },
  "现实系职业": {
   "maid": "女仆",
@@ -186,6 +229,19 @@
   "construction worker": "建筑工人",
   "hunter": "猎人",
   "mechanic": "机修工",
-  "butler": "管家"
+  "butler": "管家",
+  "student": "学生",
+  "florist": "花店店员",
+  "barista": "咖啡师",
+  "librarian": "图书管理员",
+  "photographer": "摄影师",
+  "designer": "设计师",
+  "journalist": "记者",
+  "actress": "女演员",
+  "model": "模特",
+  "gymnast": "体操选手",
+  "swimmer": "游泳选手",
+  "student, school_uniform, school_bag, day": "学生+校服+书包+白日",
+  "barista, apron, cafe, holding_cup": "咖啡师+围裙+咖啡厅+端杯"
  }
 }

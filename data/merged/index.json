@@ -4,7 +4,7 @@
   "file": "人物构成.json",
   "nsfw": false,
   "subs": 11,
-  "entries": 167
+  "entries": 223
  },
  {
   "name": "头发相关",
@@ -67,7 +67,7 @@
   "file": "布景.json",
   "nsfw": false,
   "subs": 4,
-  "entries": 94
+  "entries": 108
  },
  {
   "name": "光照风格",
@@ -88,7 +88,7 @@
   "file": "环境场所.json",
   "nsfw": false,
   "subs": 26,
-  "entries": 434
+  "entries": 476
  },
  {
   "name": "背景元素",
@@ -102,7 +102,7 @@
   "file": "物种生物.json",
   "nsfw": false,
   "subs": 17,
-  "entries": 301
+  "entries": 339
  },
  {
   "name": "艺术风格",

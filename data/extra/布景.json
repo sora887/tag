@@ -99,6 +99,20 @@
         "night market, lanterns, food stalls, crowd blur": "夜市灯笼+小吃摊+人流虚化",
         "observatory, telescope, star chart, blue night light": "天文台+望远镜+星图+蓝光夜",
         "cafe window seat, rain outside, warm interior, steam cup": "咖啡馆临窗座+窗外雨+热汽杯子",
-        "lakeside dock, mist, dawn, still reflection": "湖side木栈道+晨雾+镜面倒影"
+        "lakeside dock, mist, dawn, still reflection": "湖side木栈道+晨雾+镜面倒影",
+        "shrine, stone steps, torii, autumn_leaves, dusk": "神社石阶+鸟居+红叶+黄昏",
+        "classroom, sunset, desks, empty seats, quiet": "夕阳教室+空座+静",
+        "cafe, window seat, rain outside, warm interior": "咖啡馆临窗+窗外雨+暖内景",
+        "neon street, night, wet asphalt, reflections": "霓虹街+夜+湿沥青+反光",
+        "beach, waves, sunset, footprints, breeze": "海滩+浪+夕阳+脚印+风",
+        "snowy forest, footprints, breath vapor, quiet": "雪林+脚印+白气+静",
+        "space, stars, nebula, window, silence": "太空+星云+舷窗+静",
+        "ruins, moss, broken pillars, sunbeam": "废墟+苔藓+断柱+光束",
+        "library, tall shelves, ladder, dust motes": "图书馆高架+梯子+浮尘",
+        "onsen, steam, rock, mountains": "温泉+蒸汽+岩石+群山",
+        "flower_field, spring, distant mountains, cloud": "花海+春+远山+云",
+        "rooftop, city skyline, dusk, wind": "天台+城市天际线+黄昏+风",
+        "riverbank, summer night, fireflies, reeds": "河畔+夏夜+萤火虫+芦苇",
+        "train_station, platform, evening, waiting": "车站站台+傍晚+等待"
     }
 }
