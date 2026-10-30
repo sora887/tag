@@ -29,7 +29,9 @@
         "midriff": "腰腹",
         "collarbone": "锁骨",
         "thighs": "大腿",
-        "bare_shoulders": "露肩"
+        "bare_shoulders": "露肩",
+        "profile": "侧脸",
+        "back": "背影"
     },
     "构图技巧": {
         "symmetry": "对称构图",
@@ -113,5 +115,14 @@
         "negative_space, figure, fog, mysterious, minimal": "雾气留白+神秘极简",
         "panorama, night, starry_sky, shooting_star, silhouette": "全景夜空+流星+剪影",
         "detail shot, jewelry, gem, sparkle, close focus": "珠宝细节特写+宝石闪光"
+    },
+    "焦点": {
+        "face_focus": "脸部对焦",
+        "eye_focus": "眼部对焦",
+        "hand_focus": "手部对焦",
+        "navel_focus": "肚脐对焦",
+        "foot_focus": "足部对焦",
+        "solo_focus": "单人焦点",
+        "depth_of_field, sharp face, blurry_background": "浅景深+面部清晰+背景虚化"
     }
 }

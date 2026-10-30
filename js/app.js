@@ -284,7 +284,7 @@ const RANDOM_ORDER = [
   { cat: '头发相关', subs: null },
   { cat: '脸部相关', subs: null },
   { cat: '表情情绪', subs: ['喜', '哀', '怒与厌', '惊与慌', '眼神细节', '嘴部细节', '其他'], maxSubs: 1 },
-  { cat: '服装服饰', subs: ['主体服装', '材质纹样', '细节穿搭短语', '连衣裙', '裙子', '上衣', '下装', '制服', '便服', '汉服', '和服', '洛丽塔', '正装'] },
+  { cat: '服装服饰', subs: ['卫衣', '外套', '主体服装', '细节穿搭短语', '裙', '裤', '鞋', '袜', '连衣裙', '裙子', '上衣', '下装', '制服', '便服', '汉服', '和服', '洛丽塔', '正装', '整体造型', '材质纹样'] },
   { cat: '配件配饰', subs: ['头部饰品', '颈胸饰', '手臂腰腿饰', '配饰短语'] },
   { cat: '动作姿态', subs: ['具体坐姿', '站姿', '坐姿', '躺姿', '姿势短语', '手部动作', '移动', '户外', '室内日常', '腿部姿势', '手臂姿势'] },
   { cat: '画面构图', subs: ['取景区域', '区域', '焦点', '构图技巧', '构图短语', '镜头角度', '角度', '远近'] },
@@ -313,7 +313,9 @@ const PAIR_CONFLICT = [
 const BAN_TOKENS = new Set(['1boy', 'male', 'crowd', 'male_focus', 'monster', 'tentacles', 'zombie',
   'orc', 'goblin', 'werewolf', 'nude', 'nipples', 'pussy', 'penis', 'sex', 'cum', 'ahegao', 'nsfw',
   'toddler', 'child', 'female_child', 'loli', 'shota', 'oppai_loli', 'underage',
-  'naughty', 'female_pervert', 'male_pervert', 'prostitute', 'dominatrix', 'stripper', 'strip_club']);
+  'naughty', 'female_pervert', 'male_pervert', 'prostitute', 'dominatrix', 'stripper', 'strip_club',
+  'bottomless', 'topless', 'naked', 'no_bra', 'no_panties', 'undressing', 'undressed', 'panties',
+  'underwear', 'pubic_hair', 'areolae']);
 const BAN_RE = /girls|boys/;                     // 多人词一律排除
 const HAIRISH = /_hair$|^hair_|_locks$|_braid$|_bangs$/;
 
@@ -323,7 +325,7 @@ function pick(arr) { return arr[randInt(arr.length)]; }
 function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = randInt(i + 1); [a[i], a[j]] = [a[j], a[i]]; } return a; }
 
 function conflictWith(tokens, pickedTokens) {
-  for (const t of tokens) { if (BAN_TOKENS.has(t) || (/girls|boys/.test(t))) return true; }
+  for (const t of tokens) { if (BAN_TOKENS.has(t) || (/girls|boys/.test(t)) || t.includes(':')) return true; }
   const pickedSet = pickedTokens;
   for (const t of tokens) {
     if (t === 'bald' && [...pickedSet].some(p => HAIRISH.test(p) && p !== 'bald')) return true;

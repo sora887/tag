@@ -66,5 +66,20 @@
         "rainy neon, wet street reflections, night, moody": "雨后霓虹+街面反光+阴郁",
         "backlit lace, translucent fabric, sun through window": "窗光透纱+逆光半透",
         "glowing_eyes, darkness, rim light, ominous": "暗中发光双眼+轮廓光"
+    },
+    "光": {
+        "sunlight": "阳光",
+        "moonlight": "月光",
+        "candlelight": "烛光",
+        "spotlight": "聚光灯",
+        "backlighting": "逆光",
+        "rim light": "轮廓光",
+        "soft light": "柔光",
+        "window_light": "窗光",
+        "neon_lights": "霓虹灯",
+        "firelight": "火光",
+        "screen_light": "屏幕光",
+        "golden_hour": "黄金时刻",
+        "blue hour": "蓝调时刻"
     }
 }

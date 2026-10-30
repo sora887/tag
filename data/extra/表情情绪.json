@@ -14,7 +14,11 @@
         "shy smile": "害羞微笑",
         "gleeful": "兴高采烈",
         "satisfied": "满足",
-        "cheek raised smile": "单边嘴角上扬"
+        "cheek raised smile": "单边嘴角上扬",
+        "smile, closed_eyes, head_tilt": "闭眼微笑+歪头",
+        "grin, open_mouth, teeth": "露齿笑+张口",
+        "laughing, hand covering mouth": "掩口笑",
+        "radiant smile, blush, sparkling_eyes": "灿烂笑+脸红+星星眼"
     },
     "哀": {
         "crying": "哭泣",
@@ -31,7 +35,10 @@
         "lone tear": "一滴泪",
         "pained expression": "痛苦表情",
         "despair": "绝望",
-        "dejected": "沮丧"
+        "dejected": "沮丧",
+        "tears, trembling lips, looking_down": "泪光+颤抖嘴唇+低头",
+        "crying, wiping_tears, sleeve": "哭泣+袖口擦泪",
+        "sad, empty_eyes, silent tears": "悲伤+空洞眼+无声落泪"
     },
     "怒与厌": {
         "angry": "生气",
@@ -113,5 +120,20 @@
         "angry shout, clenched fists, tears of frustration": "愤怒呐喊+握拳+不甘泪",
         "blush to ears, fidgeting fingers, downward gaze": "红到耳根+手指绞动+垂眸",
         "expressionless, empty_eyes, blank_stare, monotone face": "面无表情+死鱼眼放空"
+    },
+    "怒": {
+        "angry, furrowed_brow, clenched_teeth": "生气+皱眉+咬牙",
+        "glaring, cold eyes, pursed_lips": "怒视+冷眼+抿嘴",
+        "pouting, crossed_arms, looking away": "撅嘴+抱臂+别过脸"
+    },
+    "惊": {
+        "surprised, wide eyes, open_mouth, hands_up": "惊讶+瞪眼+张口+举手",
+        "surprised, frozen, dropped_object": "震惊+僵住+掉落物",
+        "flustered, sweatdrop, waving_hands": "慌乱+汗滴+摆手"
+    },
+    "慌": {
+        "nervous, fidgeting, avoiding eye contact": "紧张+小动作+躲视线",
+        "awkward smile, blush, scratching_cheek": "尴尬笑+脸红+挠脸",
+        "embarrassed, covering_face, peek through fingers": "害羞+掩面+指缝偷看"
     }
 }

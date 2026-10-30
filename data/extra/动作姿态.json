@@ -95,6 +95,23 @@
         "sitting at low table, pouring tea, focused, steam rising": "矮桌斟茶+专注+蒸汽升起",
         "dancing with arms out, eyes_closed, skirt twirling, joy": "张臂起舞+闭眼+裙旋转+欢愉",
         "peeking from behind door, only eyes visible, curious": "门后偷看+只露眼睛+好奇",
-        "balancing on one leg, spread_arms, playground, bright": "单腿平衡+张臂+游乐场+明快"
+        "balancing on one leg, spread_arms, playground, bright": "单腿平衡+张臂+游乐场+明快",
+        "standing, one hand on hair, wind, looking away": "站立+手撩发+风+侧目",
+        "sitting on bed, blanket, morning light, stretching": "床上坐+毯子+晨光+伸懒腰",
+        "walking, hands_in_pockets, scarf, snowy street": "行走+手插兜+围巾+雪街",
+        "leaning on railing, from_behind, city_lights, night": "倚栏杆+背影+城市灯火+夜",
+        "lying on grass, arms_behind_head, cloud, afternoon": "草地躺+枕手+云+午后"
+    },
+    "站姿": {
+        "standing, arms_behind_back": "站立+背手",
+        "standing, contrapposto, hand_on_own_hip": "站立+重心单侧+叉腰",
+        "standing, crossed_arms, confident": "站立+抱臂+自信",
+        "standing, looking_back, hair sway": "站立+回眸+发丝摆动"
+    },
+    "坐姿": {
+        "sitting, crossed_legs, hands_on_knee": "坐姿+翘腿+手放膝",
+        "on_chair, leaning_forward, elbows_on_table": "椅上坐+前倾+撑桌",
+        "sitting, hugging knees, chin on knees": "抱膝坐+下巴抵膝",
+        "sitting_sideways, legs tucked, looking_up": "侧坐+收腿+仰视"
     }
 }
