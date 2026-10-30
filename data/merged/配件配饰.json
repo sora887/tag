@@ -31,9 +31,9 @@
   "cassette": "磁带盒"
  },
  "乐器": {
+  "guitar": "吉他",
   "instrument": "乐器",
   "microphone": "麦克风",
-  "guitar": "吉他",
   "cello": "大提琴"
  },
  "体育": {

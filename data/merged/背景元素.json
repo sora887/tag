@@ -75,10 +75,25 @@
   "vase": "花瓶"
  },
  "乐器": {
-  "piano": "钢琴"
+  "piano": "钢琴",
+  "guitar": "吉他",
+  "acoustic_guitar": "木吉他",
+  "violin": "小提琴",
+  "flute": "长笛",
+  "harp": "竖琴",
+  "music_stand": "谱架",
+  "drums": "鼓",
+  "piano, sheet_music, window_light": "钢琴+乐谱+窗光"
  },
  "工具": {
-  "broom": "扫帚"
+  "wrench": "扳手",
+  "hammer": "锤子",
+  "screwdriver": "螺丝刀",
+  "toolbox": "工具箱",
+  "ladder": "梯子",
+  "paintbrush": "画笔",
+  "broom": "扫帚",
+  "paintbrush, easel, paint_palette, studio": "画笔+画架+调色板+画室"
  },
  "载具": {
   "watercraft": "水上工具",

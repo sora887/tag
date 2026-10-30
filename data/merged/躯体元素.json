@@ -70,16 +70,31 @@
   "demon horns": "恶魔角"
  },
  "颈背": {
+  "neck": "脖颈",
   "nape": "颈",
-  "shoulder blades": "肩胛骨"
+  "neckline": "领口线",
+  "shoulder blades": "肩胛骨",
+  "exposed neck, updo hair, earrings": "露颈+盘发+耳饰"
  },
  "肩": {
+  "shoulders": "肩膀",
+  "bare_shoulders": "裸肩",
+  "collarbone": "锁骨",
+  "shoulder_blades": "肩胛骨",
   "armpit": "腋",
-  "collarbone": "锁骨"
+  "bare_shoulders, off-shoulder, collarbone": "裸肩+露肩装+锁骨"
  },
  "手": {
+  "hand": "手",
+  "fingers": "手指",
+  "spread_fingers": "张开手指",
+  "clenched_hand": "握拳",
+  "hand_up": "举手",
+  "wrist": "手腕",
+  "manicure": "美甲",
   "nail polish": "手指美甲",
-  "nails": "指甲"
+  "nails": "指甲",
+  "elegant fingers, hand_focus, soft light": "纤长手指+手部特写+柔光"
  },
  "胸": {
   "breasts": "胸部",
@@ -105,7 +120,11 @@
   "mune": "胸部"
  },
  "腰部": {
-  "waist": "腰"
+  "waist": "腰",
+  "midriff": "腰腹",
+  "navel": "肚脐",
+  "narrow_waist": "细腰",
+  "waist, belt, high-waist_skirt": "腰部+腰带+高腰裙"
  },
  "尾巴": {
   "tail": "尾巴",

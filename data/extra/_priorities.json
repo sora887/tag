@@ -399,5 +399,144 @@
   "leg ribbon",
   "anklet",
   "garter belt"
+ ],
+ "眼部": [
+  "tareme",
+  "tsurime",
+  "closed eyes",
+  "half-closed eyes",
+  "wide-eyed",
+  "sparkling eyes",
+  "gradient eyes",
+  "heterochromia",
+  "empty eyes",
+  "slit pupils",
+  "eyelashes",
+  "long eyelashes"
+ ],
+ "眼部装饰": [
+  "eyeshadow",
+  "eyeliner",
+  "makeup",
+  "eyebrows",
+  "thick eyebrows",
+  "eyepatch",
+  "teardrop makeup",
+  "glitter makeup"
+ ],
+ "手": [
+  "hand",
+  "fingers",
+  "spread fingers",
+  "clenched hand",
+  "hand up",
+  "wrist",
+  "manicure"
+ ],
+ "肩": [
+  "shoulders",
+  "bare shoulders",
+  "collarbone",
+  "shoulder blades"
+ ],
+ "腰部": [
+  "waist",
+  "midriff",
+  "navel",
+  "narrow waist"
+ ],
+ "颈背": [
+  "neck",
+  "nape",
+  "neckline"
+ ],
+ "跪姿": [
+  "kneeling",
+  "on one knee",
+  "seiza",
+  "wariza",
+  "leaning on knee"
+ ],
+ "趴姿": [
+  "lying on stomach",
+  "prone",
+  "on stomach"
+ ],
+ "沐浴": [
+  "bathing",
+  "in bath",
+  "steam",
+  "wet hair",
+  "holding towel",
+  "soap bubbles"
+ ],
+ "发夹": [
+  "hairclip",
+  "hairpin",
+  "barrette",
+  "claw clip",
+  "bobby pin",
+  "crystal hairpin"
+ ],
+ "发带": [
+  "headband",
+  "hairband",
+  "scrunchie",
+  "ribbon headband"
+ ],
+ "地平线": [
+  "horizon",
+  "horizon line",
+  "low horizon",
+  "high horizon"
+ ],
+ "乐器": [
+  "piano",
+  "guitar",
+  "acoustic guitar",
+  "violin",
+  "flute",
+  "harp",
+  "music stand"
+ ],
+ "工具": [
+  "wrench",
+  "hammer",
+  "screwdriver",
+  "toolbox",
+  "ladder",
+  "paintbrush"
+ ],
+ "扣式": [
+  "button",
+  "zipper",
+  "front zipper",
+  "buckle",
+  "lace-up",
+  "toggle"
+ ],
+ "仪式": [
+  "wedding dress",
+  "bridal veil",
+  "veil"
+ ],
+ "头部": [
+  "crown",
+  "tiara",
+  "circlet",
+  "veil",
+  "flower crown"
+ ],
+ "年代风": [
+  "retro artstyle",
+  "vintage",
+  "1980s style",
+  "1990s style"
+ ],
+ "线条": [
+  "speed lines",
+  "focus lines",
+  "motion lines",
+  "impact lines"
  ]
 }

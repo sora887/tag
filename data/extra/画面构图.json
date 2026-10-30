@@ -124,5 +124,18 @@
         "foot_focus": "足部对焦",
         "solo_focus": "单人焦点",
         "depth_of_field, sharp face, blurry_background": "浅景深+面部清晰+背景虚化"
+    },
+    "地平线": {
+        "horizon": "地平线",
+        "horizon line": "地平线构图",
+        "low horizon": "低地平线",
+        "high horizon": "高地平线",
+        "horizon, ocean, wide_shot, silence": "海岸线+广角+静谧"
+    },
+    "烟": {
+        "smoke": "烟雾",
+        "cigarette": "香烟",
+        "steam": "蒸汽",
+        "smoke, night, lamppost, cigarette": "烟雾+夜+路灯+香烟"
     }
 }

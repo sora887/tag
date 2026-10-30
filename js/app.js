@@ -1,4 +1,4 @@
-/* Tag 选择器 · 前端主逻辑
+﻿/* Tag 选择器 · 前端主逻辑
  * 功能：分类词库点选 / 拖拽排序 / ±加权 / { } ⇄ ( ) 切换 / 正反输出 + 复制清空默认
  *       localStorage 持久化 / 中英显示切换 / R18 开关 / 搜索 / 自定义导入 / 右键 Danbooru / 随机抽取
  */
@@ -39,7 +39,7 @@ function save() {
   try {
     localStorage.setItem(LS_KEY, JSON.stringify({
       selected: state.selected, langEn: state.langEn, syntax: state.syntax,
-      nsfw: state.nsfw, rand: state.rand, neg: $('#out-negative').value,
+      nsfw: state.nsfw, rand: state.rand, neg: $('#out-negative').value, current: state.current,
     }));
   } catch (e) { /* ignore */ }
 }
@@ -53,6 +53,7 @@ function load() {
     state.syntax = d.syntax === 'paren' ? 'paren' : 'curly';
     state.nsfw = !!d.nsfw;
     if (d.rand) state.rand = d.rand;
+    if (typeof d.current === 'string' && d.current) state.current = d.current;
     if (typeof d.neg === 'string' && d.neg.trim()) $('#out-negative').value = d.neg;
   } catch (e) { /* ignore */ }
 }
@@ -129,7 +130,7 @@ async function loadCat(name) {
   if (state.loading.has(name)) return state.loading.get(name);
   const meta = state.index.find(c => c.name === name);
   if (!meta) throw new Error('未知分类 ' + name);
-  const p = fetch('data/merged/' + encodeURIComponent(meta.file), { cache: 'force-cache' })
+  const p = fetch('data/merged/' + encodeURIComponent(meta.file))
     .then(r => { if (!r.ok) throw new Error('加载失败 ' + meta.file + ' HTTP ' + r.status); return r.json(); })
     .then(j => { state.cats.set(name, j); state.loading.delete(name); return j; });
   state.loading.set(name, p);
@@ -145,7 +146,7 @@ function renderTabs() {
   state.index.filter(c => state.nsfw || !c.nsfw).forEach(c => {
     const b = el('button', 'tab' + (state.current === c.name ? ' active' : ''), c.name);
     b.title = c.subs + ' 个小分类 · ' + c.entries + ' 条';
-    b.onclick = () => { state.current = c.name; state.query = ''; $('#search').value = ''; renderTabs(); renderDictionary(); };
+    b.onclick = () => { state.current = c.name; state.query = ''; $('#search').value = ''; renderTabs(); renderDictionary(); save(); };
     nav.appendChild(b);
   });
 }
@@ -154,6 +155,7 @@ function renderTabs() {
 function entryCard(en, cn) {
   const d = el('div', 'entry');
   d.dataset.en = en;
+  d.title = en + (cn && cn !== en ? ' · ' + cn : '');
   const left = el('span', 'en', state.langEn ? en : (cn || en));
   const right = el('span', 'cn', state.langEn ? '' : (cn && cn !== en ? cn : ''));
   const plus = el('span', 'plus', '+');
@@ -440,7 +442,7 @@ async function init() {
   load();
   if ($('#out-negative') && !$('#out-negative').value) $('#out-negative').value = DEFAULT_NEG;
   try {
-    const r = await fetch('data/merged/index.json', { cache: 'force-cache' });
+    const r = await fetch('data/merged/index.json', { cache: 'no-cache' });
     if (!r.ok) throw new Error('HTTP ' + r.status);
     state.index = await r.json();
   } catch (e) {
@@ -450,7 +452,10 @@ async function init() {
     $('#dictionary').innerHTML = '<div class="muted">词库加载失败：' + esc(e.message) + hint + '</div>';
     return;
   }
-  state.current = (state.index.find(c => state.nsfw || !c.nsfw) || {}).name || null;
+  const visible = c => state.nsfw || !c.nsfw;
+  const saved = state.index.find(c => c.name === state.current && visible(c));
+  state.current = saved ? saved.name
+    : ((state.index.find(visible) || {}).name || null);
   $('#chk-nsfw').checked = state.nsfw;
   $('#btn-syntax').textContent = state.syntax === 'paren' ? '加权 ( )' : '加权 { }';
   renderTabs();
@@ -501,6 +506,13 @@ function bindEvents() {
     if (added) toast('已导入 ' + added + ' 条');
   };
   $('#custom-input').addEventListener('keydown', e => { if (e.key === 'Enter') $('#btn-custom-add').click(); });
+  $('#btn-toggle-all').onclick = () => {
+    const accs = $$('#dictionary .acc');
+    if (!accs.length) return;
+    const anyClosed = accs.some(a => !a.classList.contains('open'));
+    accs.forEach(a => a.classList.toggle('open', anyClosed));
+    $('#btn-toggle-all').textContent = anyClosed ? '收起全部' : '展开全部';
+  };
   $('#btn-random').onclick = openModal;
   $('#btn-rand-close').onclick = closeModal;
   $('#btn-rand-do').onclick = () => { state.rand.nsfw = $('#chk-rand-nsfw').checked; save(); randomPick(); };
@@ -512,3 +524,4 @@ function bindEvents() {
 
 document.addEventListener('DOMContentLoaded', init);
 })();
+

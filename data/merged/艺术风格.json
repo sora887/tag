@@ -36,8 +36,13 @@
   "william turner": "透纳"
  },
  "年代风": {
+  "retro_artstyle": "复古画风",
+  "vintage": "古早",
+  "1980s style": "80年代风",
+  "1990s style": "90年代风",
   "1980s": "1980年代",
-  "90's": "1990年代"
+  "90's": "1990年代",
+  "retro_artstyle, muted colors, film_grain": "复古画风+低饱和+胶片颗粒"
  },
  "作品": {
   "persona 5": "p5风格",

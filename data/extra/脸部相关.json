@@ -1,0 +1,38 @@
+{
+    "眼部": {
+        "tareme": "下垂眼",
+        "tsurime": "吊眼",
+        "half-closed_eyes": "半睁眼",
+        "closed_eyes": "闭眼",
+        "wide-eyed": "瞪圆眼",
+        "empty_eyes": "空洞眼",
+        "sparkling_eyes": "闪亮眼",
+        "gradient_eyes": "渐变瞳",
+        "heterochromia": "异色瞳",
+        "slit_pupils": "竖瞳",
+        "eyelashes": "睫毛",
+        "long_eyelashes": "长睫毛",
+        "tsurime, sharp eyes, cold": "吊眼+锐利眼神+冷淡",
+        "tareme, downturned_eyes, gentle": "下垂眼+柔和",
+        "gradient_eyes, sparkling, close-up": "渐变瞳+闪亮+特写"
+    },
+    "眼部装饰": {
+        "eyeshadow": "眼影",
+        "eyeliner": "眼线",
+        "makeup": "妆容",
+        "eyebrows": "眉毛",
+        "thick_eyebrows": "粗眉",
+        "teardrop makeup": "泪滴妆",
+        "glitter_makeup": "闪片妆",
+        "eyepatch": "眼罩",
+        "red_eyeshadow, sharp eyeliner, cold": "红眼影+锐眼线+冷"
+    },
+    "整体": {
+        "face": "面部",
+        "profile": "侧脸",
+        "face_focus": "面部特写",
+        "beautiful face": "精致面容",
+        "freckles": "雀斑",
+        "makeup, blush, glossy lips": "妆容+腮红+亮唇"
+    }
+}

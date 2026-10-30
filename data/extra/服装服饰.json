@@ -330,5 +330,28 @@
         "beach outfit, sundress, straw_hat, sandals": "海滩装+日光裙+草帽+凉鞋",
         "idol costume, frills, sequins, stage": "偶像服+荷叶边+亮片+舞台",
         "steampunk, goggles, corset, coat tails": "蒸汽朋克+护目镜+束腰+燕尾"
+    },
+    "扣式": {
+        "button": "纽扣",
+        "zipper": "拉链",
+        "front_zipper": "前拉链",
+        "buckle": "带扣",
+        "lace-up": "系带",
+        "toggle": "牛角扣",
+        "lace-up front, corset, ribbon": "前系带+束腰+缎带"
+    },
+    "仪式": {
+        "wedding_dress": "婚纱",
+        "bridal_veil": "新娘头纱",
+        "veil": "头纱",
+        "wedding_dress, veil, bouquet, soft light": "婚纱+头纱+捧花+柔光"
+    },
+    "头部": {
+        "crown": "王冠",
+        "tiara": "冠冕",
+        "circlet": "头环",
+        "veil": "面纱",
+        "head_wreath": "花冠",
+        "tiara, updo, evening_gown": "冠冕+盘发+晚礼服"
     }
 }

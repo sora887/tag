@@ -113,5 +113,34 @@
         "on_chair, leaning_forward, elbows_on_table": "椅上坐+前倾+撑桌",
         "sitting, hugging knees, chin on knees": "抱膝坐+下巴抵膝",
         "sitting_sideways, legs tucked, looking_up": "侧坐+收腿+仰视"
+    },
+    "跪姿": {
+        "kneeling": "跪姿",
+        "on_one_knee": "单膝跪",
+        "seiza": "正坐",
+        "wariza": "鸭子坐",
+        "leaning on knee": "手撑膝跪",
+        "sitting on heels, hands_on_lap, seiza": "跪坐+手叠膝上"
+    },
+    "趴姿": {
+        "on_stomach": "趴卧",
+        "prone": "俯卧",
+        "elbows on floor, chin on hands, lying": "手肘撑地+托腮+趴着"
+    },
+    "沐浴": {
+        "bathing": "洗澡",
+        "in bath": "泡澡",
+        "steam": "水汽",
+        "wet_hair": "湿发",
+        "soap_bubbles": "肥皂泡",
+        "holding_towel": "拿毛巾",
+        "in bath, steam, wet_hair, towel": "泡澡+水汽+湿发+毛巾"
+    },
+    "娱乐": {
+        "holding_controller": "握着手柄",
+        "playing_games": "打游戏",
+        "watching tv": "看电视",
+        "holding_book": "拿着书",
+        "holding_controller, on_floor, tv glow": "握着手柄+坐地上+电视光"
     }
 }

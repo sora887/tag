@@ -359,7 +359,11 @@
  },
  "头顶": {
   "halo": "光环",
-  "mechanical halo": "机械式光环"
+  "mechanical halo": "机械式光环",
+  "top of head": "头顶",
+  "ahoge": "呆毛",
+  "hair_intakes": "发际分缝",
+  "ahoge, top of head, fluffy hair": "呆毛+蓬松头顶"
  },
  "耳饰": {
   "earrings": "耳饰",
@@ -478,8 +482,14 @@
   "headscarf, tied under chin, retro": "头巾系下巴+复古"
  },
  "发夹": {
+  "hairclip": "发夹",
+  "hairpin": "发簪夹",
+  "claw clip": "抓夹",
+  "bobby_pin": "小钢夹",
+  "crystal hairpin": "水晶发夹",
   "hairband": "发头带",
-  "hair stick": "发棒"
+  "hair stick": "发棒",
+  "hairclip, pearl, side_bangs": "珍珠发夹+侧刘海"
  },
  "头带": {
   "headband": "头带",
@@ -488,8 +498,13 @@
   "headband around neck": "围在脖子上的头带"
  },
  "发带": {
+  "headband": "发带",
+  "hairband": "头箍",
+  "scrunchie": "发圈",
+  "ribbon headband": "缎带发带",
   "red hairband": "红色发带",
-  "blue hairband": "蓝色发带"
+  "blue hairband": "蓝色发带",
+  "headband, sporty, sweat, short_hair": "运动发带+汗+短发"
  },
  "头巾": {
   "bandana": "头巾",
@@ -507,7 +522,11 @@
   "soyombo earrings": "索扬波耳环"
  },
  "兜帽": {
-  "rabbit hood": "兔子兜帽"
+  "rabbit hood": "兔子兜帽",
+  "hood": "兜帽",
+  "hood_down": "兜帽放下",
+  "hood_up": "戴上兜帽",
+  "hood_up, shadow over eyes": "兜帽遮眼"
  },
  "挑染": {
   "streaked_hair": "挑染",

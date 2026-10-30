@@ -17,7 +17,16 @@
   "dilated pupils": "瞳孔放大"
  },
  "眼部装饰": {
-  "eye shadow": "眼影"
+  "eyeshadow": "眼影",
+  "eyeliner": "眼线",
+  "makeup": "妆容",
+  "eyebrows": "眉毛",
+  "thick_eyebrows": "粗眉",
+  "eyepatch": "眼罩",
+  "teardrop makeup": "泪滴妆",
+  "glitter_makeup": "闪片妆",
+  "eye shadow": "眼影",
+  "red_eyeshadow, sharp eyeliner, cold": "红眼影+锐眼线+冷"
  },
  "其他": {
   "bright eyes": "明亮的眼睛",
@@ -28,7 +37,13 @@
  },
  "整体": {
   "cute face": "可爱脸",
-  "anime face": "动漫脸"
+  "anime face": "动漫脸",
+  "face": "面部",
+  "profile": "侧脸",
+  "face_focus": "面部特写",
+  "beautiful face": "精致面容",
+  "freckles": "雀斑",
+  "makeup, blush, glossy lips": "妆容+腮红+亮唇"
  },
  "额头": {
   "big forehead": "大额头",
@@ -36,7 +51,22 @@
   "forehead jewel": "额前宝石"
  },
  "眼部": {
-  "scar across eye": "眼睛疤痕"
+  "tareme": "下垂眼",
+  "tsurime": "吊眼",
+  "closed_eyes": "闭眼",
+  "half-closed_eyes": "半睁眼",
+  "wide-eyed": "瞪圆眼",
+  "sparkling_eyes": "闪亮眼",
+  "gradient_eyes": "渐变瞳",
+  "heterochromia": "异色瞳",
+  "empty_eyes": "空洞眼",
+  "slit_pupils": "竖瞳",
+  "eyelashes": "睫毛",
+  "long_eyelashes": "长睫毛",
+  "scar across eye": "眼睛疤痕",
+  "tsurime, sharp eyes, cold": "吊眼+锐利眼神+冷淡",
+  "tareme, downturned_eyes, gentle": "下垂眼+柔和",
+  "gradient_eyes, sparkling, close-up": "渐变瞳+闪亮+特写"
  },
  "眉毛": {
   "eyebrows visible through hair": "头发后的眉毛",

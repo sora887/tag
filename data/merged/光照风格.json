@@ -161,8 +161,12 @@
   "eighth note": "八分音符"
  },
  "线条": {
+  "speed lines": "速度线",
+  "focus lines": "集中线",
   "motion lines": "运动线",
-  "speed lines": "速度线"
+  "impact lines": "冲击线",
+  "speed_lines": "速度线",
+  "motion_lines": "动感线"
  },
  "其他符号": {
   "heartbeat": "心跳"

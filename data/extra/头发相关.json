@@ -156,5 +156,32 @@
         "flower_pin": "花朵发夹",
         "hairpin, pearl, soft bangs": "珍珠发夹+柔和刘海",
         "ribbon, twintails, satin, shy smile": "缎带双马尾+缎面+害羞"
+    },
+    "发夹": {
+        "hairclip": "发夹",
+        "hairpin": "发簪夹",
+        "claw clip": "抓夹",
+        "bobby_pin": "小钢夹",
+        "crystal hairpin": "水晶发夹",
+        "hairclip, pearl, side_bangs": "珍珠发夹+侧刘海"
+    },
+    "发带": {
+        "headband": "发带",
+        "hairband": "头箍",
+        "scrunchie": "发圈",
+        "ribbon headband": "缎带发带",
+        "headband, sporty, sweat, short_hair": "运动发带+汗+短发"
+    },
+    "头顶": {
+        "top of head": "头顶",
+        "ahoge": "呆毛",
+        "hair_intakes": "发际分缝",
+        "ahoge, top of head, fluffy hair": "呆毛+蓬松头顶"
+    },
+    "兜帽": {
+        "hood": "兜帽",
+        "hood_down": "兜帽放下",
+        "hood_up": "戴上兜帽",
+        "hood_up, shadow over eyes": "兜帽遮眼"
     }
 }

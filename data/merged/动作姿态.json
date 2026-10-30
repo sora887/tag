@@ -17,8 +17,11 @@
   "lying on side": "侧卧"
  },
  "趴姿": {
+  "prone": "俯卧",
+  "on_stomach": "趴卧",
   "crawling": "趴着",
-  "top-down bottom-up": "趴着翘臀"
+  "top-down bottom-up": "趴着翘臀",
+  "elbows on floor, chin on hands, lying": "手肘撑地+托腮+趴着"
  },
  "坐姿": {
   "sitting": "坐",
@@ -38,8 +41,14 @@
   "sitting_sideways, legs tucked, looking_up": "侧坐+收腿+仰视"
  },
  "跪姿": {
+  "kneeling": "跪姿",
+  "on_one_knee": "单膝跪",
+  "seiza": "正坐",
+  "wariza": "鸭子坐",
+  "leaning on knee": "手撑膝跪",
   "on knees": "跪",
-  "one knee": "单膝跪"
+  "one knee": "单膝跪",
+  "sitting on heels, hands_on_lap, seiza": "跪坐+手叠膝上"
  },
  "倾靠": {
   "leaning": "身体倾斜",
@@ -164,7 +173,13 @@
  },
  "沐浴": {
   "bathing": "洗澡",
-  "showering": "淋浴"
+  "in bath": "泡澡",
+  "steam": "水汽",
+  "wet_hair": "湿发",
+  "holding_towel": "拿毛巾",
+  "soap_bubbles": "肥皂泡",
+  "showering": "淋浴",
+  "in bath, steam, wet_hair, towel": "泡澡+水汽+湿发+毛巾"
  },
  "艺术": {
   "knitting": "编织",
@@ -179,7 +194,12 @@
   "playing instrument": "演奏乐器"
  },
  "娱乐": {
-  "playing game": "打游戏"
+  "playing game": "打游戏",
+  "holding_controller": "握着手柄",
+  "playing_games": "打游戏",
+  "watching tv": "看电视",
+  "holding_book": "拿着书",
+  "holding_controller, on_floor, tv glow": "握着手柄+坐地上+电视光"
  },
  "体育运动": {
   "gymnastics": "体操",

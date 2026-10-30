@@ -212,7 +212,11 @@
  },
  "地平线": {
   "horizon": "地平线",
-  "mountainous horizon": "群山地平线"
+  "horizon line": "地平线构图",
+  "low horizon": "低地平线",
+  "high horizon": "高地平线",
+  "mountainous horizon": "群山地平线",
+  "horizon, ocean, wide_shot, silence": "海岸线+广角+静谧"
  },
  "天空": {
   "color?:sky": "天空",
@@ -233,7 +237,11 @@
  },
  "烟": {
   "black smoke": "黑烟",
-  "smoke of gunpowder": "硝烟"
+  "smoke of gunpowder": "硝烟",
+  "smoke": "烟雾",
+  "cigarette": "香烟",
+  "steam": "蒸汽",
+  "smoke, night, lamppost, cigarette": "烟雾+夜+路灯+香烟"
  },
  "火焰和爆炸": {
   "fire": "火",

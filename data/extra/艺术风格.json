@@ -91,5 +91,12 @@
         "risograph, two-color misprint, grainy, retro poster": "孔版双色错位+颗粒复古海报",
         "manga screentone, speed_lines, black white, dramatic": "漫画网点+速度线+黑白戏剧",
         "noir, rain, silhouette, venetian blind shadow": "黑色电影+雨+百叶窗影"
+    },
+    "年代风": {
+        "retro_artstyle": "复古画风",
+        "vintage": "古早",
+        "1980s style": "80年代风",
+        "1990s style": "90年代风",
+        "retro_artstyle, muted colors, film_grain": "复古画风+低饱和+胶片颗粒"
     }
 }

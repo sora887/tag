@@ -81,5 +81,11 @@
         "screen_light": "屏幕光",
         "golden_hour": "黄金时刻",
         "blue hour": "蓝调时刻"
+    },
+    "线条": {
+        "speed_lines": "速度线",
+        "focus lines": "集中线",
+        "motion_lines": "动感线",
+        "impact lines": "冲击线"
     }
 }

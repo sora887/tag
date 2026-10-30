@@ -648,7 +648,14 @@
   "sleeves folded up": "叠起的袖子"
  },
  "扣式": {
-  "buttons": "纽扣"
+  "button": "纽扣",
+  "zipper": "拉链",
+  "front_zipper": "前拉链",
+  "buckle": "带扣",
+  "lace-up": "系带",
+  "toggle": "牛角扣",
+  "buttons": "纽扣",
+  "lace-up front, corset, ribbon": "前系带+束腰+缎带"
  },
  "装饰": {
   "lace": "蕾丝",
@@ -1140,7 +1147,13 @@
   "holding unworn dress": "手持未穿的裙子"
  },
  "头部": {
-  "hood up": "兜帽戴在头上"
+  "crown": "王冠",
+  "tiara": "冠冕",
+  "circlet": "头环",
+  "veil": "面纱",
+  "hood up": "兜帽戴在头上",
+  "head_wreath": "花冠",
+  "tiara, updo, evening_gown": "冠冕+盘发+晚礼服"
  },
  "职业cos": {
   "maid dress": "女仆装",
@@ -1269,7 +1282,11 @@
   "halloween costume": "万圣节装"
  },
  "仪式": {
-  "funeral dress": "丧服"
+  "wedding_dress": "婚纱",
+  "bridal_veil": "新娘头纱",
+  "veil": "头纱",
+  "funeral dress": "丧服",
+  "wedding_dress, veil, bouquet, soft light": "婚纱+头纱+捧花+柔光"
  },
  "服装纹样": {
   "animal print": "皮毛纹样",
