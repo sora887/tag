@@ -75,10 +75,18 @@
         "vase": "花瓶"
     },
     "乐器": {
-        "piano": "钢琴"
+        "piano": "钢琴",
+        "instrument": "乐器",
+        "microphone": "麦克风",
+        "guitar": "吉他",
+        "cello": "大提琴"
     },
     "工具": {
-        "broom": "扫帚"
+        "broom": "扫帚",
+        "hammer": "锤子",
+        "scissors": "剪刀",
+        "axe": "斧头",
+        "hatchet": "短斧"
     },
     "载具": {
         "watercraft": "水上工具",
@@ -100,7 +108,6 @@
         "skull": "头骨"
     },
     "简单色背景": {
-        "color:background": "背景色",
         "simple background": "简单背景",
         "gradient background": "渐变背景",
         "multicolored background": "多彩背景",

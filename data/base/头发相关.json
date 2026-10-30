@@ -322,7 +322,6 @@
         "hairclip": "发夹",
         "hairpin": "发卡",
         "hair flower": "头饰花",
-        "color?:hairband": "发箍",
         "lolita hairband": "洛丽塔发箍",
         "bow hairband": "蝴蝶结发箍",
         "hair scrunchie": "发束",
@@ -447,8 +446,5 @@
         "anchor earrings": "锚形耳环",
         "inverted cross earrings": "倒十字耳环",
         "soyombo earrings": "索扬波耳环"
-    },
-    "兜帽": {
-        "rabbit hood": "兔子兜帽"
     }
 }

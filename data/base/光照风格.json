@@ -101,7 +101,6 @@
         "mugshot": "罪犯照片"
     },
     "颜色风格": {
-        "color:theme": "主题色",
         "colorful": "色彩丰富",
         "multicolored": "多种颜色",
         "monochrome": "单色调",
@@ -174,7 +173,7 @@
         "autumn": "秋",
         "winter": "冬"
     },
-    "节日": {
+    "节日光影": {
         "valentine": "情人节",
         "tanabata": "七夕节(日本)",
         "halloween": "万圣节",

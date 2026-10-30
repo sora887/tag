@@ -62,7 +62,6 @@
         "pikachu ears": "皮卡丘耳"
     },
     "角": {
-        "color?:horns": "角",
         "dragon horns": "龙角",
         "goat horns": "山羊角",
         "cow horns": "牛角",
@@ -209,7 +208,7 @@
         "heart tattoo": "心形纹身",
         "number tattoo": "编号纹身"
     },
-    "未分类": {
+    "未分类躯体": {
         "sweat": "汗水",
         "midriff": "腰腹",
         "mole": "痣",

@@ -8,7 +8,10 @@
         "drums": "鼓",
         "harp": "竖琴",
         "music_stand": "谱架",
-        "piano, sheet_music, window_light": "钢琴+乐谱+窗光"
+        "piano, sheet_music, window_light": "钢琴+乐谱+窗光",
+        "instrument": "乐器",
+        "microphone": "麦克风",
+        "cello": "大提琴"
     },
     "工具": {
         "wrench": "扳手",
@@ -17,6 +20,9 @@
         "toolbox": "工具箱",
         "ladder": "梯子",
         "paintbrush": "画笔",
-        "paintbrush, easel, paint_palette, studio": "画笔+画架+调色板+画室"
+        "paintbrush, easel, paint_palette, studio": "画笔+画架+调色板+画室",
+        "scissors": "剪刀",
+        "axe": "斧头",
+        "hatchet": "短斧"
     }
 }

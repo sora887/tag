@@ -27,6 +27,14 @@
         "eyepatch": "眼罩",
         "red_eyeshadow, sharp eyeliner, cold": "红眼影+锐眼线+冷"
     },
+    "面部整体": {
+        "face": "面部",
+        "profile": "侧脸",
+        "face_focus": "面部特写",
+        "beautiful face": "精致面容",
+        "freckles": "雀斑",
+        "makeup, blush, glossy lips": "妆容+腮红+亮唇"
+    },
     "整体": {
         "face": "面部",
         "profile": "侧脸",

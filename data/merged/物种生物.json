@@ -195,13 +195,9 @@
   "dandelion": "蒲公英"
  },
  "花": {
-  "color?:blossoms": "花",
-  "color?:flowers": "花(复)",
   "flower pot": "花盆",
   "wisteria": "藤花",
-  "color?:rose": "玫瑰",
   "multicolored rose": "多色玫瑰",
-  "color?:lotus": "莲花",
   "water lily flower": "睡莲",
   "daisy": "雏菊",
   "hydrangea": "紫阳花",
@@ -243,7 +239,6 @@
   "rafflesia": "大王花",
   "lily of the valley": "铃兰",
   "camellia": "山茶花",
-  "color?:carnation": "康乃磬",
   "plumeria": "缅栀花",
   "strawberry blossoms": "草莓花",
   "pansy": "三色堇",

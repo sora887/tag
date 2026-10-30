@@ -42,7 +42,12 @@
         "hairpin, pearl, curled bangs": "珍珠发夹+卷刘海",
         "ribbon, twintails, satin": "缎带+双马尾+缎面",
         "goggles, steampunk, hat brim": "护目镜+蒸汽朋克+帽檐",
-        "headband, sporty, sweat": "运动发带+汗"
+        "headband, sporty, sweat": "运动发带+汗",
+        "rabbit_hood": "兔子兜帽",
+        "hood": "兜帽",
+        "hood_down": "兜帽放下",
+        "hood_up": "戴上兜帽",
+        "hood_up, shadow over eyes": "兜帽遮眼"
     },
     "颈胸饰": {
         "choker": "项圈",

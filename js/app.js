@@ -1,4 +1,4 @@
-/* Tag 选择器 · 前端主逻辑
+﻿/* Tag 选择器 · 前端主逻辑
  * 功能：分类词库点选 / 拖拽排序 / ±加权 / { } ⇄ ( ) 切换 / 正反输出 + 复制清空默认
  *       localStorage 持久化 / 中英显示切换 / R18 开关 / 搜索 / 自定义导入 / 右键 Danbooru / 随机抽取
  */
@@ -346,6 +346,7 @@ const PAIR_CONFLICT = [
   ['from_above', 'from_below'], ['from_behind', 'front_view'], ['from_side', 'front_view'],
   ['from_above', 'from_behind'], ['pov', 'from_behind'], ['pov', 'from_above'], ['pov', 'from_below'],
   ['looking_at_viewer', 'from_behind'], ['from_above', 'from_side'],
+  ['foot_focus', 'bust'], ['foot_focus', 'upper_body'], ['foot_focus', 'close-up'], ['foot_focus', 'portrait'],
 ];
 const BAN_TOKENS = new Set(['1boy', 'male', 'crowd', 'male_focus', 'monster', 'tentacles', 'zombie',
   'orc', 'goblin', 'werewolf', 'nude', 'nipples', 'pussy', 'penis', 'sex', 'cum', 'ahegao', 'nsfw',
@@ -403,8 +404,10 @@ async function randomPick() {
     if (!subs.length) continue;
     subs = shuffle(subs);
     // 随机跳过部分小分类（配饰类可以没有），至少抽 1 个，最多按规格限制
-    const maxSubs = Math.min(subs.length, spec.maxSubs || (spec.cat === '画面构图' ? 2 : 2));
-    let n = 1 + (subs.length > 1 && Math.random() < 0.5 ? 1 : 0);
+    const deep = !state.rand || state.rand.deep !== false;
+    const maxSubs = Math.min(subs.length, spec.maxSubs || (deep ? 4 : 2));
+    let n = deep ? 2 + (Math.random() < 0.5 ? 1 : 0)
+                        : 1 + (subs.length > 1 && Math.random() < 0.5 ? 1 : 0);
     n = Math.min(n, maxSubs);
     let got = 0;
     for (const sub of subs) {
@@ -454,6 +457,7 @@ function openModal() {
   if (!state.rand) state.rand = { cats: defaultRandCats(), nsfw: false };
   if (!state.rand.cats) state.rand.cats = defaultRandCats();
   $('#chk-rand-nsfw').checked = !!state.rand.nsfw;
+  $('#chk-rand-deep').checked = state.rand.deep !== false;
   const cats = state.index.filter(c => {
     if (c.name === 'NSFW内容') return false;
     if (c.name === '画师') return true;
@@ -552,6 +556,7 @@ function bindEvents() {
   $('#btn-rand-close').onclick = closeModal;
   $('#btn-rand-do').onclick = () => { state.rand.nsfw = $('#chk-rand-nsfw').checked; save(); randomPick(); };
   $('#chk-rand-nsfw').onchange = e => { if (!state.rand) state.rand = {}; state.rand.nsfw = e.target.checked; save(); };
+  $('#chk-rand-deep').onchange = e => { if (!state.rand) state.rand = {}; state.rand.deep = e.target.checked; save(); };
   $('#rand-modal').addEventListener('click', e => { if (e.target.id === 'rand-modal') closeModal(); });
   $('#out-negative').addEventListener('input', save);
   window.addEventListener('beforeunload', save);
@@ -559,4 +564,6 @@ function bindEvents() {
 
 document.addEventListener('DOMContentLoaded', init);
 })();
+
+
 

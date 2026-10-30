@@ -115,19 +115,6 @@
         "lying on the lake": "躺在湖面上",
         "lying on water": "躺在水中"
     },
-    "花": {
-        "flower petals": "花瓣",
-        "rose petals": "玫瑰花瓣",
-        "flying petals": "飞舞的花瓣",
-        "falling petals": "落下的花瓣",
-        "petals on liquid": "水面的花瓣",
-        "flower on liquid": "水面的花",
-        "floating sakura": "漂浮的樱花",
-        "surrounded by floating sakura": "环绕樱花",
-        "many colorful petals are flying": "五颜六色的花瓣飞舞",
-        "catkins": "柳絮",
-        "cotton wool floating in the air": "飘在空中的棉絮"
-    },
     "叶": {
         "leaves": "树叶",
         "ginkgo leaf": "银杏叶",
@@ -145,7 +132,6 @@
         "dragonfly": "蜻蜓",
         "glowworm": "萤火虫",
         "自然其他": null,
-        "color?:feathers": "羽毛",
         "ptcrowd birds and cloud at sky": "天空中的鸟和云",
         "goldfish": "金鱼"
     },
@@ -209,7 +195,6 @@
         "mountainous horizon": "群山地平线"
     },
     "天空": {
-        "color?:sky": "天空",
         "gradient sky": "渐变天空",
         "beautiful detailed sky": "美丽精细的天空",
         "burning sky": "燃烧的天空",
@@ -258,17 +243,6 @@
         "origami": "折纸",
         "paper crane": "纸鹤"
     },
-    "其他": {
-        "cowboy shot": "牛仔镜头"
-    },
-    "主题": {
-        "fantasy": "奇幻",
-        "steampunk": "蒸汽朋克",
-        "cyberpunk": "赛博朋克",
-        "machinery": "机械风",
-        "science fiction": "科学幻想",
-        "dystopian": "反乌托邦"
-    },
     "设计元素": {
         "cross": "十字",
         "heart": "心形",
@@ -299,5 +273,29 @@
         "fisheye": "鱼眼镜头",
         "isometric": "等轴",
         "wide-angle": "广角"
+    },
+    "画面主题": {
+        "fantasy": "奇幻",
+        "steampunk": "蒸汽朋克",
+        "cyberpunk": "赛博朋克",
+        "machinery": "机械风",
+        "science fiction": "科学幻想",
+        "dystopian": "反乌托邦"
+    },
+    "花元素": {
+        "flower petals": "花瓣",
+        "rose petals": "玫瑰花瓣",
+        "flying petals": "飞舞的花瓣",
+        "falling petals": "落下的花瓣",
+        "petals on liquid": "水面的花瓣",
+        "flower on liquid": "水面的花",
+        "floating sakura": "漂浮的樱花",
+        "surrounded by floating sakura": "环绕樱花",
+        "many colorful petals are flying": "五颜六色的花瓣飞舞",
+        "catkins": "柳絮",
+        "cotton wool floating in the air": "飘在空中的棉絮"
+    },
+    "其他构图": {
+        "cowboy shot": "牛仔镜头"
     }
 }

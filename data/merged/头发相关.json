@@ -344,7 +344,6 @@
   "hairclip": "发夹",
   "hairpin": "发卡",
   "hair flower": "头饰花",
-  "color?:hairband": "发箍",
   "lolita hairband": "洛丽塔发箍",
   "bow hairband": "蝴蝶结发箍",
   "hair scrunchie": "发束",
@@ -521,13 +520,6 @@
   "inverted cross earrings": "倒十字耳环",
   "soyombo earrings": "索扬波耳环"
  },
- "兜帽": {
-  "rabbit hood": "兔子兜帽",
-  "hood": "兜帽",
-  "hood_down": "兜帽放下",
-  "hood_up": "戴上兜帽",
-  "hood_up, shadow over eyes": "兜帽遮眼"
- },
  "挑染": {
   "streaked_hair": "挑染",
   "colored_inner_hair": "内层染色",
@@ -614,7 +606,13 @@
   "long_braid, single braid over shoulder, hair ribbon tip": "单辫垂肩+辫梢蝴蝶结",
   "wind, hair_blowing, ahoge, backlit": "风吹发+呆毛逆光",
   "curly_hair, voluminous, vintage waves, hair_flower": "蓬松卷发+复古波浪+发花",
-  "bed hair, morning, sleepy eyes, messy bun": "起床乱发+困眼+丸子松散",
+  "bed_hair, morning, sleepy eyes, messy bun": "起床乱发+困眼+丸子松散",
   "colored_tips, gradient ends, twintails, soft palette": "发尾渐变挑染+柔和色双马尾"
+ },
+ "兜帽": {
+  "hood": "兜帽",
+  "hood_down": "兜帽放下",
+  "hood_up": "戴上兜帽",
+  "hood_up, shadow over eyes": "兜帽遮眼"
  }
 }

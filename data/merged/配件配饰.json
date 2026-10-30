@@ -30,12 +30,6 @@
   "controller": "手柄",
   "cassette": "磁带盒"
  },
- "乐器": {
-  "guitar": "吉他",
-  "instrument": "乐器",
-  "microphone": "麦克风",
-  "cello": "大提琴"
- },
  "体育": {
   "ball": "球",
   "basketball": "篮球",
@@ -76,7 +70,6 @@
   "backpack": "背包",
   "shoulder bag": "单肩包",
   "satchel": "挎包",
-  "color?:umbrella": "伞",
   "oil-paper umbrella": "油纸伞",
   "parasol": "太阳伞",
   "transparent umbrella": "透明伞",
@@ -100,12 +93,6 @@
   "trophy": "奖杯",
   "lotion": "身体乳",
   "lotion bottle": "乳液瓶子"
- },
- "工具": {
-  "hammer": "锤子",
-  "scissors": "剪刀",
-  "axe": "斧头",
-  "hatchet": "短斧"
  },
  "玩具": {
   "toys": "玩具",
@@ -195,19 +182,16 @@
   "dog collar": "狗项圈",
   "necklace": "项链",
   "bead necklace": "珠子项链",
-  "color?:bowtie": "领结",
   "necktie": "领带",
   "plaid necktie": "格子领带",
   "chains": "锁链",
   "latin cross": "拉丁十字架",
-  "color?:neckerchief": "领巾",
   "headphones around neck": "脖子挂耳机",
   "dog tags": "狗牌",
   "heart lock": "心锁",
   "whistle around neck": "脖子挂口哨"
  },
  "手套": {
-  "color?:gloves": "手套",
   "elbow gloves": "肘部手套",
   "paw gloves": "猫猫手套",
   "fingerless gloves": "无指手套",
@@ -221,22 +205,10 @@
   "wristband": "腕带",
   "wrist cuffs": "腕饰",
   "bracer": "护腕",
-  "color?:armband": "臂章",
   "arm belt": "臂环",
   "handcuffs": "手铐",
   "cuffs": "手枷",
   "shackles": "宽手铐"
- },
- "胸部": {
-  "brooch": "胸针",
-  "chest jewel": "胸部宝石",
-  "breast bondage": "胸部束缚"
- },
- "腰部": {
-  "belt": "腰带",
-  "buckles": "搭扣",
-  "sam browne belt": "武装带",
-  "sash": "饰带"
  },
  "腿脚": {
   "thigh strap": "大腿带",
@@ -246,45 +218,6 @@
   "bound legs": "绑脚",
   "ankle lace-up": "腿部系带",
   "anklet": "脚环"
- },
- "其他3": {
-  "color?:bow": "蝴蝶结",
-  "plaid bow": "格子蝴蝶结",
-  "tassel": "流苏",
-  "silk": "丝带",
-  "gemstone": "宝石",
-  "diamond": "钻石",
-  "color?:ribbon": "缎带",
-  "flower trim": "花饰",
-  "badge": "徽章",
-  "bandaid": "创可贴",
-  "jeweled branch of hourai": "蓬莱玉枝"
- },
- "翅膀": {
-  "color?:wings": "翅膀",
-  "feathered wings": "天使翅膀",
-  "ice crystal texture wings": "冰纹理翅膀",
-  "dragon wings": "龙翅膀",
-  "fairy wings": "妖精翅膀",
-  "fake wings": "假翅膀",
-  "head wings": "头上翅膀",
-  "low wings": "低位翅膀",
-  "detached wings": "分离的翅膀"
- },
- "尾巴": {
-  "color?:tail": "尾巴",
-  "bunny tail": "兔尾",
-  "cat tail": "猫尾",
-  "dog tail": "狗尾",
-  "mouse tail": "鼠尾",
-  "fox tail": "狐狸尾",
-  "tiger tail": "老虎尾",
-  "squirrel tail": "松鼠尾",
-  "wolf tail": "狼尾",
-  "dragon tail": "龙尾",
-  "horse tail": "马尾巴",
-  "raccoon tail": "浣熊尾",
-  "cow tail": "牛尾"
  },
  "食物": {
   "rice": "米饭",
@@ -677,6 +610,41 @@
   "feast": "盛宴",
   "cha throres": "(AI语)黏糊糊的食物"
  },
+ "尾饰": {
+  "bunny tail": "兔尾",
+  "cat tail": "猫尾",
+  "dog tail": "狗尾",
+  "mouse tail": "鼠尾",
+  "fox tail": "狐狸尾",
+  "tiger tail": "老虎尾",
+  "squirrel tail": "松鼠尾",
+  "wolf tail": "狼尾",
+  "dragon tail": "龙尾",
+  "horse tail": "马尾巴",
+  "raccoon tail": "浣熊尾",
+  "cow tail": "牛尾"
+ },
+ "翼饰": {
+  "feathered wings": "天使翅膀",
+  "ice crystal texture wings": "冰纹理翅膀",
+  "dragon wings": "龙翅膀",
+  "fairy wings": "妖精翅膀",
+  "fake wings": "假翅膀",
+  "head wings": "头上翅膀",
+  "low wings": "低位翅膀",
+  "detached wings": "分离的翅膀"
+ },
+ "腰饰": {
+  "belt": "腰带",
+  "buckles": "搭扣",
+  "sam browne belt": "武装带",
+  "sash": "饰带"
+ },
+ "胸饰": {
+  "brooch": "胸针",
+  "chest jewel": "胸部宝石",
+  "breast bondage": "胸部束缚"
+ },
  "头部饰品": {
   "beret": "贝雷帽",
   "flat_cap": "鸭舌帽",
@@ -704,6 +672,11 @@
   "tiara": "小冠冕",
   "crown": "王冠",
   "circlet": "头环",
+  "rabbit hood": "兔子兜帽",
+  "hood": "兜帽",
+  "hood_down": "兜帽放下",
+  "hood_up": "戴上兜帽",
+  "hood_up, shadow over eyes": "兜帽遮眼",
   "hair claw": "抓夹",
   "hair_scrunchie": "大肠发圈",
   "hair_ornament": "发饰",
@@ -720,7 +693,19 @@
   "hairpin, pearl, curled bangs": "珍珠发夹+卷刘海",
   "ribbon, twintails, satin": "缎带+双马尾+缎面",
   "goggles, steampunk, hat brim": "护目镜+蒸汽朋克+帽檐",
-  "headband, sporty, sweat": "运动发带+汗"
+  "headband, sporty, sweat": "运动发带+汗",
+  "rabbit_hood": "兔子兜帽"
+ },
+ "其他配饰": {
+  "plaid bow": "格子蝴蝶结",
+  "tassel": "流苏",
+  "silk": "丝带",
+  "gemstone": "宝石",
+  "diamond": "钻石",
+  "flower trim": "花饰",
+  "badge": "徽章",
+  "bandaid": "创可贴",
+  "jeweled branch of hourai": "蓬莱玉枝"
  },
  "颈胸饰": {
   "necklace": "项链",

@@ -82,6 +82,9 @@
   "flute": "长笛",
   "harp": "竖琴",
   "music_stand": "谱架",
+  "instrument": "乐器",
+  "microphone": "麦克风",
+  "cello": "大提琴",
   "drums": "鼓",
   "piano, sheet_music, window_light": "钢琴+乐谱+窗光"
  },
@@ -93,6 +96,9 @@
   "ladder": "梯子",
   "paintbrush": "画笔",
   "broom": "扫帚",
+  "scissors": "剪刀",
+  "axe": "斧头",
+  "hatchet": "短斧",
   "paintbrush, easel, paint_palette, studio": "画笔+画架+调色板+画室"
  },
  "载具": {
@@ -115,7 +121,6 @@
   "skull": "头骨"
  },
  "简单色背景": {
-  "color:background": "背景色",
   "simple background": "简单背景",
   "gradient background": "渐变背景",
   "multicolored background": "多彩背景",

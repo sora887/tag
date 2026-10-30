@@ -1,12 +1,4 @@
 {
-    "颜色": {
-        "color:eyes": "瞳色",
-        "color:sclera": "巩膜色",
-        "color:pupils": "虹膜色",
-        "heterochromia": "异色瞳",
-        "multicolored eyes": "彩色瞳",
-        "asymmetrical irises": "不对称虹膜"
-    },
     "瞳孔形状": {
         "star-shaped pupils": "星星眼",
         "empty eyes": "失神眼",
@@ -25,10 +17,6 @@
         "beautiful detailed eyes": "漂亮精细的眼睛",
         "big eyes": "大眼睛",
         "eye reflection": "眼睛反射"
-    },
-    "整体": {
-        "cute face": "可爱脸",
-        "anime face": "动漫脸"
     },
     "额头": {
         "big forehead": "大额头",
@@ -66,5 +54,14 @@
         "forehead writing": "额头文字",
         "star on cheek": "脸颊上的星星",
         "scar across eyebrow": "眉毛上的伤疤"
+    },
+    "瞳色": {
+        "heterochromia": "异色瞳",
+        "multicolored eyes": "彩色瞳",
+        "asymmetrical irises": "不对称虹膜"
+    },
+    "面部整体": {
+        "cute face": "可爱脸",
+        "anime face": "动漫脸"
     }
 }

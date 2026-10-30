@@ -559,7 +559,7 @@
         "ohikaenasutte": "要求自我介绍",
         "breastfeeding": "哺乳"
     },
-    "未分类-1": {
+    "未分类动作": {
         "flying": "飞行",
         "dual wielding": "双持",
         "rigging": "绑架",
@@ -816,9 +816,7 @@
         "conga line": "康佳舞",
         "reki connect": "连结",
         "cookin": "烹饪",
-        "finger writing": "手指书写"
-    },
-    "未分类-2": {
+        "finger writing": "手指书写",
         "holding sword": "持剑",
         "holding food": "持食物",
         "eating": "吃",
